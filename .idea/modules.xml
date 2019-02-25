@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/travel_dao/travel_dao.iml" filepath="$PROJECT_DIR$/travel_dao/travel_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel_parent.iml" filepath="$PROJECT_DIR$/travel_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel_pojo/travel_pojo.iml" filepath="$PROJECT_DIR$/travel_pojo/travel_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel_utils/travel_utils.iml" filepath="$PROJECT_DIR$/travel_utils/travel_utils.iml" />
+    </modules>
+  </component>
+</project>
