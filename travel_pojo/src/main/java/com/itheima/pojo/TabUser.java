@@ -1,8 +1,9 @@
 package com.itheima.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class TabUser {
+public class TabUser implements Serializable {
     private Integer uid;
 
     private String username;

@@ -1,8 +1,8 @@
 package com.itheima.util;
 
-
-import java.net.Authenticator;
-import java.net.PasswordAuthentication;
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 /**

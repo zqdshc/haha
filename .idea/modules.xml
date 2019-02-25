@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/travel-page-category-interface/travel-page-category-interface.iml" filepath="$PROJECT_DIR$/travel-page-category-interface/travel-page-category-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-page-category-service/travel-page-category-service.iml" filepath="$PROJECT_DIR$/travel-page-category-service/travel-page-category-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-page-category-web/travel-page-category-web.iml" filepath="$PROJECT_DIR$/travel-page-category-web/travel-page-category-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_dao/travel_dao.iml" filepath="$PROJECT_DIR$/travel_dao/travel_dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/travel_page_interface/travel_page_interface.iml" filepath="$PROJECT_DIR$/travel_page_interface/travel_page_interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/travel_page_service/travel_page_service.iml" filepath="$PROJECT_DIR$/travel_page_service/travel_page_service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/travel_page_web/travel_page_web.iml" filepath="$PROJECT_DIR$/travel_page_web/travel_page_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_parent.iml" filepath="$PROJECT_DIR$/travel_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_pojo/travel_pojo.iml" filepath="$PROJECT_DIR$/travel_pojo/travel_pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/travel_user_interface/travel_user_interface.iml" filepath="$PROJECT_DIR$/travel_user_interface/travel_user_interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/travel_user_service/travel_user_service.iml" filepath="$PROJECT_DIR$/travel_user_service/travel_user_service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/travel_user_web/travel_user_web.iml" filepath="$PROJECT_DIR$/travel_user_web/travel_user_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_utils/travel_utils.iml" filepath="$PROJECT_DIR$/travel_utils/travel_utils.iml" />
     </modules>
   </component>

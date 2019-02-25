@@ -16,7 +16,7 @@ public interface TabCategoryMapper {
 
     int insertSelective(TabCategory record);
 
-    List<TabCategory> selectByExample(TabCategoryExample example);
+    List<com.itheima.pojo.TabCategory> selectByExample(TabCategoryExample example);
 
     TabCategory selectByPrimaryKey(Integer cid);
 
