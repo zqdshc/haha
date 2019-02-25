@@ -11,6 +11,9 @@
         <module name="travel_page_service" />
         <module name="travel_page_web" />
         <module name="travel_pojo" />
+        <module name="travel_user_interface" />
+        <module name="travel_user_service" />
+        <module name="travel_user_web" />
         <module name="travel_utils" />
       </profile>
     </annotationProcessing>
@@ -21,6 +24,9 @@
       <module name="travel_page_web" target="1.5" />
       <module name="travel_parent" target="1.5" />
       <module name="travel_pojo" target="1.5" />
+      <module name="travel_user_interface" target="1.5" />
+      <module name="travel_user_service" target="1.5" />
+      <module name="travel_user_web" target="1.5" />
       <module name="travel_utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
