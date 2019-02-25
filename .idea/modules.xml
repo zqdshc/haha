@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/travel_dao/travel_dao.iml" filepath="$PROJECT_DIR$/travel_dao/travel_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel_page_interface/travel_page_interface.iml" filepath="$PROJECT_DIR$/travel_page_interface/travel_page_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel_page_service/travel_page_service.iml" filepath="$PROJECT_DIR$/travel_page_service/travel_page_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel_page_web/travel_page_web.iml" filepath="$PROJECT_DIR$/travel_page_web/travel_page_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_parent.iml" filepath="$PROJECT_DIR$/travel_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_pojo/travel_pojo.iml" filepath="$PROJECT_DIR$/travel_pojo/travel_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_utils/travel_utils.iml" filepath="$PROJECT_DIR$/travel_utils/travel_utils.iml" />

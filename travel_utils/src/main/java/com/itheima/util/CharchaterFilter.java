@@ -11,12 +11,12 @@ import java.io.IOException;
  */
 @WebFilter("/*")
 public class CharchaterFilter implements Filter {
-    @Override
+
     public void init(FilterConfig filterConfig) throws ServletException {
 
     }
 
-    @Override
+
     public void doFilter(ServletRequest req, ServletResponse rep, FilterChain filterChain) throws IOException, ServletException {
         //将父接口转为子接口
         HttpServletRequest request = (HttpServletRequest) req;
@@ -32,7 +32,7 @@ public class CharchaterFilter implements Filter {
         filterChain.doFilter(request,response);
     }
 
-    @Override
+
     public void destroy() {
 
     }

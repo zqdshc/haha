@@ -11,6 +11,9 @@
         <module>travel_utils</module>
         <module>travel_pojo</module>
         <module>travel_dao</module>
+        <module>travel_page_interface</module>
+        <module>travel_page_service</module>
+        <module>travel_page_web</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
