@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="travel-page-category-service:war">
+    <output-path>$PROJECT_DIR$/travel-page-category-service/target</output-path>
+    <root id="archive" name="travel-page-category-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="travel-page-category-service:war exploded" />
+    </root>
+  </artifact>
+</component>
