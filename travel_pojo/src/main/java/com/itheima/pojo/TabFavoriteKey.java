@@ -1,6 +1,8 @@
 package com.itheima.pojo;
 
-public class TabFavoriteKey {
+import java.io.Serializable;
+
+public class TabFavoriteKey implements Serializable {
     private Integer rid;
 
     private Integer uid;
