@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/travel-page-category-interface/travel-page-category-interface.iml" filepath="$PROJECT_DIR$/travel-page-category-interface/travel-page-category-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-page-category-service/travel-page-category-service.iml" filepath="$PROJECT_DIR$/travel-page-category-service/travel-page-category-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-page-category-web/travel-page-category-web.iml" filepath="$PROJECT_DIR$/travel-page-category-web/travel-page-category-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_dao/travel_dao.iml" filepath="$PROJECT_DIR$/travel_dao/travel_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_page_detail_interface/travel_page_detail_interface.iml" filepath="$PROJECT_DIR$/travel_page_detail_interface/travel_page_detail_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel_page_detail_service/travel_page_detail_service.iml" filepath="$PROJECT_DIR$/travel_page_detail_service/travel_page_detail_service.iml" />
