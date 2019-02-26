@@ -31,23 +31,13 @@ app.controller('travelController' ,function($scope,$controller,travelService){
 			}			
 		);
 	}
-	
-	//查询实体 
-	$scope.findOne=function(id){				
-		travelService.findOne(id).success(
-			function(response){
-				$scope.entity= response;
-				$scope.entity.brandIds=JSON.parse($scope.entity.brandIds);
-				$scope.entity.specIds=JSON.parse($scope.entity.specIds);
-			}
-		);				
-	}
+
 
 	$scope.searchEntity={};//定义搜索对象
 	
 	//搜索
 	$scope.search=function(page,rows){			
-		typeTemplateService.search(page,rows,$scope.searchEntity).success(
+		travelService.search(page,rows,$scope.searchEntity).success(
 			function(response){
 				$scope.list=response.rows;	
 				$scope.paginationConf.totalItems=response.total;//更新总记录数

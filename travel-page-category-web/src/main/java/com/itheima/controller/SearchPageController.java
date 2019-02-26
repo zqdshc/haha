@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.itheima.page.PageSearchInterface;
 import com.itheima.pojo.TabCategory;
 
+import com.itheima.pojo.TabRoute;
 import org.junit.Test;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,9 +19,8 @@ public class SearchPageController {
     private PageSearchInterface pageSearch;
 
     @RequestMapping("/search")
-    public List<TabCategory> findAll(){
-        List<TabCategory> all = pageSearch.findAll();
-        System.out.println(all);
+    public List<TabRoute> findOne(Integer cid){
+        List<TabRoute> all = pageSearch.findOne(cid);
         return all;
     }
 

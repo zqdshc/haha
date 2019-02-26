@@ -2,22 +2,13 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/travel_page_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/travel_page_service/pom.xml" />
-        <option value="$PROJECT_DIR$/travel_page_web/pom.xml" />
-        <option value="$PROJECT_DIR$/travel_user_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/travel_user_service/pom.xml" />
-        <option value="$PROJECT_DIR$/travel_user_web/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

@@ -16,7 +16,9 @@
 </head>
 <body ng-app="travel" ng-controller="travelController">
 <!--引入头部-->
+
 <div id="header"></div>
+
     <div class="page_one">
         <div class="contant">
             <div class="crumbs">
@@ -167,7 +169,7 @@
                         <ul>
                             <li><a href="">首页</a></li>
                             <li class="threeword"><a href="#">上一页</a></li>
-                            <li><a href="#">1</a></li>
+                          <!--  <li><a href="#">1</a></li>
                             <li><a href="#">2</a></li>
                             <li><a href="#">3</a></li>
                             <li><a href="#">4</a></li>
@@ -176,7 +178,9 @@
                             <li><a href="#">7</a></li>
                             <li><a href="#">8</a></li>
                             <li><a href="#">9</a></li>
-                            <li><a href="#">10</a></li>
+                            <li><a href="#">10</a></li>-->
+                            <tm-pagination conf="paginationConf"></tm-pagination>
+
                             <li class="threeword"><a href="javascript:;">下一页</a></li>
                             <li class="threeword"><a href="javascript:;">末页</a></li>
                         </ul>

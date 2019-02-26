@@ -1,1 +1,1 @@
-var app=angular.module('pyg',[]);//定义品优购模块
+var app=angular.module('travel',[]);//定义品优购模块

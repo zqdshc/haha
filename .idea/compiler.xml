@@ -16,7 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="travel-page-category-interface" target="1.5" />
-      <module name="travel-page-category-service" target="1.8" />
+      <module name="travel-page-category-service" target="1.5" />
       <module name="travel-page-category-web" target="1.5" />
       <module name="travel_dao" target="1.5" />
       <module name="travel_page_interface" target="1.5" />
