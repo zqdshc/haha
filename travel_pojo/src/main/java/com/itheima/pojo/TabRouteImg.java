@@ -1,6 +1,8 @@
 package com.itheima.pojo;
 
-public class TabRouteImg {
+import java.io.Serializable;
+
+public class TabRouteImg implements Serializable {
     private Integer rgid;
 
     private Integer rid;

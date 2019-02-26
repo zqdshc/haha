@@ -1,6 +1,8 @@
 package com.itheima.pojo;
 
-public class TabCategory {
+import java.io.Serializable;
+
+public class TabCategory  implements Serializable {
     private Integer cid;
 
     private String cname;

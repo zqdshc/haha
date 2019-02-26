@@ -1,6 +1,12 @@
 package com.itheima.util;
 
 
+
+
+import javax.mail.Message;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
 import java.util.Properties;
@@ -37,11 +43,13 @@ public final class MailUtils {
                     // 用户名、密码
                     String userName = props.getProperty("mail.user");
                     String password = props.getProperty("mail.password");
-                    return new PasswordAuthentication(userName, password);
+                    return new PasswordAuthentication(userName, password.toCharArray());
                 }
             };
             // 使用环境属性和授权信息，创建邮件会话
-            Session mailSession = Session.getInstance(props, authenticator);
+            //Session mailSession = Session.getInstance(props, authenticator);
+            javax.mail.Session mailSession = javax.mail.Session.getDefaultInstance(props);
+
             // 创建邮件消息
             MimeMessage message = new MimeMessage(mailSession);
             // 设置发件人

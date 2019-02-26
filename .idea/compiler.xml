@@ -7,21 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="travel_dao" />
-        <module name="travel_page_interface" />
-        <module name="travel_page_service" />
-        <module name="travel_page_web" />
+        <module name="travel_page_detail_interface" />
+        <module name="travel_page_detail_service" />
+        <module name="travel_page_detail_web" />
         <module name="travel_pojo" />
         <module name="travel_utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="travel_dao" target="1.5" />
-      <module name="travel_page_interface" target="1.5" />
-      <module name="travel_page_service" target="1.5" />
-      <module name="travel_page_web" target="1.5" />
-      <module name="travel_parent" target="1.5" />
-      <module name="travel_pojo" target="1.5" />
-      <module name="travel_utils" target="1.5" />
+      <module name="travel_dao" target="1.8" />
+      <module name="travel_page_detail_interface" target="1.8" />
+      <module name="travel_page_detail_service" target="1.8" />
+      <module name="travel_page_detail_web" target="1.8" />
+      <module name="travel_parent" target="1.8" />
+      <module name="travel_pojo" target="1.8" />
+      <module name="travel_utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

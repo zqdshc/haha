@@ -1,6 +1,8 @@
 package com.itheima.pojo;
 
-public class TabSeller {
+import java.io.Serializable;
+
+public class TabSeller implements Serializable {
     private Integer sid;
 
     private String sname;

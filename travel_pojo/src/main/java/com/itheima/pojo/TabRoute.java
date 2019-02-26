@@ -1,6 +1,8 @@
 package com.itheima.pojo;
 
-public class TabRoute {
+import java.io.Serializable;
+
+public class TabRoute implements Serializable {
     private Integer rid;
 
     private String rname;
